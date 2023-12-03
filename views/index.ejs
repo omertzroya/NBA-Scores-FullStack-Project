@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>NBA Scores</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titan+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+</head>
+<body>
+  <h1 class="title">NBA Scores</h1>
+  <h2 class="subtitle">The scores of this month's games</h2>
+  <div class="container " > 
+  <!-- Go through the array to extract the game values in each iteration  -->
+  <% for (var i = 0; i < arrGames.length ; i++) { %>
+  <div class="card">
+    <p>
+     <img  src="./images/<%=arrGames[i].team1%>.png"/> 
+    <div class="score"><h2>VS</h2>
+      <p>Score: <br> <%= arrGames[i].score1 %> - <%= arrGames[i].score2 %></p>
+      <p>Date: <br> <%= arrGames[i].date %></p>
+
+    </div>
+    <img src="./images/<%=arrGames[i].team2%>.png"/> 
+    </p>
+  </div>
+  <% } %>
+</div>
+
+</body>
+
+</html>
