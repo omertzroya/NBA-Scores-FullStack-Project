@@ -14,7 +14,7 @@ This is a web application built with Node.js and Express that fetches and displa
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/AsafTzabari/NBA-Scores-FullStack-Project.git
+   git clone https://github.com/omertzroya/NBA-Scores-FullStack-Project.git
    ```
 
 2. **Install Dependencies:**
