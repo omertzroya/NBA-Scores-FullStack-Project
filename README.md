@@ -56,6 +56,13 @@ To successfully run the application, you need to obtain a RapidAPI key as it is 
 - Axios: HTTP client for making API requests
 - EJS: Embedded JavaScript templating for rendering dynamic content
 
+## Screenshots
+<div style="display: flex; justify-content: space-between;">
+    <div style="flex: 1; text-align: center;">
+        <img src="public/images/Screenshots1.png" width="300" alt="Screenshot 1">
+       <img src="public/images/Screenshots2.png" width="300" alt="Screenshot 2">
+        <img src="public/images/Screenshots3.png" width="300" alt="Screenshot 3">
+</div>
 
 
 
