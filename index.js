@@ -21,7 +21,7 @@ app.get('/', async(req, res) => {
     url: 'https://odds.p.rapidapi.com/v4/sports/basketball_nba/scores',
     params: {daysFrom: '3'},
     headers: {
-      'X-RapidAPI-Key': 'e72d352152mshe86eb15637dfdf6p1aadc5jsn58d74e3fae7d',
+      'X-RapidAPI-Key': 'Your Api Key',
       'X-RapidAPI-Host': 'odds.p.rapidapi.com'
     }
   };
